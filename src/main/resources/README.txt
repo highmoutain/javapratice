@@ -1,2 +1,0 @@
-运行JVMTaskClassLoader的main方法 就是作业3
-作业2是resources目录下的JMM.png
