@@ -20,7 +20,7 @@ public class Week2HttpClientExample {
         CloseableHttpClient httpClient = HttpClients.createDefault();
 
         // 创建 HttpGet 请求
-        HttpGet httpGet = new HttpGet("http://localhost:8801");
+        HttpGet httpGet = new HttpGet("http://localhost:8808/test");
         // 设置长连接
         httpGet.setHeader("Connection", "keep-alive");
         // 设置代理（模拟浏览器版本）
