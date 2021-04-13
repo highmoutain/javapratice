@@ -46,7 +46,7 @@ public class NettyClient {
 //        client.connect("127.0.0.1",8888);
 //    }
 public static void main(String[] args) {
-    connect("127.0.0.1", 8888, "test");
+    connect("127.0.0.1", 8888, "/test");
 }
 
     public static void connect(String host, int port, String url_str) {
