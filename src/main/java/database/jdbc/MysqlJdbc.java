@@ -23,7 +23,7 @@ public class MysqlJdbc {
         }
 
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mall", "root", "root");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mall", "root", "");
             if (connection != null) {
                 System.out.println("Connection successful!");
             } else {
